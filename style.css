@@ -1,0 +1,1226 @@
+@font-face {
+    font-family: "roboto1";
+    src: url(./Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: "roboto2";
+    src: url(./Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "roboto3";
+    src: url(./Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "roboto4";
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "roboto5";
+    src: url(./Roboto/Roboto-Black.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: "roboto1";
+    background-color: rgb(35, 34, 34);
+    width: 100%;
+    color: white;
+   
+}
+
+div.div1{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image_1.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0; 
+    
+   
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+div.box1{
+    display: flex;
+    position: absolute;
+    top: 45px;
+    left: 460px;
+    z-index: -1;
+    font-family: "roboto4";
+    font-size: 15px;
+}
+p.p2{
+    margin-left: 50px;
+}
+p.p3{
+    margin-left: 50px;
+}
+p.p4{
+    margin-left: 50px;
+}
+p.p5{
+    margin-left: 50px;
+}
+div.box2{
+    font-family: "roboto2";
+    position: absolute;
+    top: 100px;
+    left: 590px;
+    margin-top: 236px;
+}
+p.p6{
+    font-size: 65px;
+}
+p.p7{
+    font-family: "roboto5";
+    margin-left: -160px;
+    font-size: 70px;
+}
+p.p8{
+    color: rgb(167, 166, 166);
+    font-family: "roboto2";
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: -100px;
+    letter-spacing: 5px;
+}
+div.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+div.box3{
+    display: flex;
+    margin-top: 60px;
+}
+p.p9{
+    font-size: 30px;
+}
+span.sp1{
+    font-family: "roboto3";
+}
+p.p10{
+  cursor: pointer;
+  color: gray;
+}
+p.p10:hover{
+    color: yellowgreen;
+}
+p.p11{
+    cursor: pointer;
+    color: gray;
+    margin-left: 40px;
+}
+p.p11:hover{
+    color: yellowgreen;
+}
+p.p12{
+    cursor: pointer;
+    color: gray;
+    margin-left: 40px;
+}
+p.p12:hover{
+    color: yellowgreen;
+}
+p.p13{
+    cursor: pointer;
+    color: gray;
+    margin-left: 40px;
+}
+p.p13:hover{
+    color: yellowgreen;
+}
+p.p14{
+    cursor: pointer;
+    color: gray;
+    margin-left: 40px;
+}
+p.p14:hover{
+    color: yellowgreen;
+}
+div.box4{
+    margin-top: 60px;
+}
+div.box5{
+    display: flex;
+    margin-right: 60px;
+}
+img.img1{
+    width: 350px;
+    height: 350px;
+}
+img.img2{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+}
+img.img3{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+}
+p.p15{
+    font-family: "roboto2";
+    line-height: 30px;
+    margin-left: 70px;
+}
+span.sp2{
+    color: rgb(167, 166, 166);
+    font-size: 12px;
+    margin-left: 40px;
+}
+p.p16{
+    font-family: "roboto2";
+    line-height: 30px;
+    margin-left: 230px;
+    margin-right: 200px
+}
+span.sp3{
+    color: rgb(167, 166, 166);
+    font-size: 12px;
+    margin-left: 70px;
+}
+p.p17{
+    font-family: "roboto2";
+    line-height: 30px;
+}
+span.sp4{
+    color: rgb(167, 166, 166);
+    font-size: 12px;
+    margin-left: 50px;
+}
+div.box6{
+    margin-top: 60px;
+}
+div.box7{
+    display: flex;
+    justify-content: center;
+}
+img.img4{
+    width: 350px;
+    height: 350px;
+}
+img.img5{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+}
+img.img6{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+}
+p.p18{
+    font-family: "roboto2";
+    line-height: 30px;
+    margin-left: 50px;
+}
+span.sp5{
+    color: rgb(167, 166, 166);
+    font-size: 12px;
+    margin-left: 20px;
+}
+p.p19{
+    font-family: "roboto2";
+    line-height: 30px;
+    margin-left: 230px;
+    margin-right: 200px
+}
+span.sp6{
+    color: rgb(167, 166, 166);
+    font-size: 12px;
+    margin-left: 40px;
+}
+p.p20{
+    font-family: "roboto2";
+    line-height: 30px;
+}
+span.sp7{
+    color: rgb(167, 166, 166);
+    font-size: 12px;
+    margin-left: 40px;
+}
+h3.h1{
+    font-size: 30px;
+    margin-top: 200px;
+}
+div.div3{
+    margin-top: 60px;
+}
+p.p21{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 250px;
+    margin-left: -40px;
+    font-size: 30px;
+}
+span.sp8{
+    font-family: "roboto3";
+    margin-left: 20px;
+}
+div.box8{
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+p.p22{
+    font-size: 25px;
+}
+p.p23{
+    font-size: 25px;
+    margin-left: 460px;
+}
+div.div4{
+    display: flex;
+}
+div.box9{
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    width: 550px;
+    height: 250px;
+}
+p.p24{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+span.sp9{
+    font-family: "roboto3";
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+span.sp10{
+    font-family: "roboto2";
+    color: yellowgreen;
+    font-size: 20px;
+}
+span.sp11{
+    font-size: 19px;
+    margin-top: 10px;
+    color: rgb(167, 166, 166);
+}
+span.sp12{
+    margin-top: -10px;
+    color: rgb(129, 123, 123)
+}
+div.box10{
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    margin-left: 30px;
+    width: 550px;
+    height: 250px;
+}
+p.p25{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+span.sp13{
+    font-family: "roboto3";
+    font-size: 13px;
+}
+span.sp14{
+    font-family: "roboto2";
+    color: yellowgreen;
+    font-size: 20px;
+    margin-top: -25px;
+}
+span.sp15{
+    font-size: 19px;
+    margin-top: -20px;
+    color: rgb(167, 166, 166);
+}
+span.sp16{
+    margin-top: -10px;
+    color: rgb(129, 123, 123)
+}
+div.div5{
+    display: flex;
+}
+div.box11{
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    margin-top: 30px;
+    width: 550px;
+    height: 250px;
+}
+p.p26{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+span.sp17{
+    font-family: "roboto3";
+    font-size: 13px;
+}
+span.sp18{
+    font-family: "roboto2";
+    color: yellowgreen;
+    font-size: 20px;
+    margin-top: -25px;
+}
+span.sp19{
+    font-size: 19px;
+    margin-top: -20px;
+    color: rgb(167, 166, 166);
+}
+span.sp20{
+    margin-top: -10px;
+    color: rgb(129, 123, 123)
+}
+div.box12{
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 550px;
+    height: 250px;
+}
+p.p27{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+span.sp21{
+    font-family: "roboto3";
+    font-size: 13px;
+}
+span.sp22{
+    font-family: "roboto2";
+    color: yellowgreen;
+    font-size: 20px;
+    margin-top: -25px;
+}
+span.sp23{
+    font-size: 19px;
+    margin-top: -20px;
+    color: rgb(167, 166, 166);
+}
+span.sp24{
+    margin-top: -10px;
+    color: rgb(129, 123, 123)
+}
+div.div6{
+    display: flex;
+}
+div.box13{
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    margin-top: 30px;
+    width: 550px;
+    height: 250px;
+}
+p.p28{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+span.sp25{
+    font-family: "roboto3";
+    font-size: 13px;
+}
+span.sp26{
+    font-family: "roboto2";
+    color: yellowgreen;
+    font-size: 20px;
+    margin-top: -25px;
+}
+span.sp27{
+    font-size: 19px;
+    margin-top: -20px;
+    color: rgb(167, 166, 166);
+}
+span.sp28{
+    margin-top: -10px;
+    color: rgb(129, 123, 123)
+}
+div.box14{
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 550px;
+    height: 250px;
+}
+p.p29{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+span.sp29{
+    font-family: "roboto3";
+    font-size: 13px;
+}
+span.sp30{
+    font-family: "roboto2";
+    color: yellowgreen;
+    font-size: 20px;
+    margin-top: -25px;
+}
+span.sp31{
+    font-size: 19px;
+    margin-top: -20px;
+    color: rgb(167, 166, 166);
+}
+span.sp32{
+    margin-top: -10px;
+    color: rgb(129, 123, 123)
+}
+div.div7{
+    display: flex;
+}
+div.box15{
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    margin-top: 30px;
+    width: 550px;
+    height: 250px;
+}
+p.p30{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+span.sp33{
+    font-family: "roboto3";
+    font-size: 13px;
+}
+span.sp34{
+    font-family: "roboto2";
+    color: yellowgreen;
+    font-size: 20px;
+    margin-top: -25px;
+}
+span.sp35{
+    font-size: 19px;
+    margin-top: -20px;
+    color: rgb(167, 166, 166);
+}
+span.sp36{
+    margin-top: -10px;
+    color: rgb(129, 123, 123)
+}
+div.box16{
+    border-radius: 10px;
+    background-color: rgb(53, 52, 52);
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 550px;
+    height: 250px;
+}
+p.p31{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+span.sp37{
+    font-family: "roboto3";
+    font-size: 13px;
+}
+span.sp38{
+    font-family: "roboto2";
+    color: yellowgreen;
+    font-size: 20px;
+    margin-top: -25px;
+}
+span.sp39{
+    font-size: 19px;
+    margin-top: -20px;
+    color: rgb(167, 166, 166);
+}
+span.sp40{
+    margin-top: -10px;
+    color: rgb(129, 123, 123)
+}
+div.div8{
+    display: flex;
+}
+div.box17{
+    margin-top: 180px;
+    margin-left: 10px;
+}
+img.img7{
+    width: 610px;
+    height: 410px;
+}
+div.box18{
+    margin-top: 190px;
+    margin-left: 100px;
+}
+span.sp41{
+    font-family: "roboto3";
+}
+p.p32{
+    color: gray;
+    line-height: 30px;
+    margin-top: 20px;
+    
+}
+span.sp42{
+    margin-top: -20px;
+    font-size: 20px;
+}
+p.p33{
+    color: gray;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+span.sp43{
+    margin-top: -30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    
+}
+
+button.bt1{
+    border-radius: 20px;
+    font-size: 12px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(170, 200, 74);
+    color: white;
+    
+}
+button.bt2{
+    border-radius: 20px;
+    font-size: 12px;
+    width: 150px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+}
+div.div9{
+    margin-top: 40px;
+}
+div.box19{
+    display: flex;
+   justify-content: center;
+   margin-top: 250px;
+}
+h3.h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-size: 30px;
+}
+span.sp44{
+    font-family: "roboto3";
+    margin-left: 20px;
+}
+div.div10{
+    display: flex;
+    margin-top: 40px;
+
+}
+img.img8{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+div.box21{
+    background-color: rgb(53, 52, 52);
+    width: 500px;
+    height: 230px;
+    line-height: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+p.p34{
+    color: rgb(167, 166, 166);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+span.sp45{
+    color: rgb(129, 123, 123);
+    font-family: "roboto2";
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 30px;
+   
+}
+span.sp46{
+    color: yellowgreen;
+    font-family: "roboto2";
+    font-style: italic;
+    font-size: 15px;
+}
+img.img9{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+div.box23{
+    background-color: rgb(53, 52, 52);
+    width: 500px;
+    height: 230px;
+    line-height: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+p.p35{
+    color: rgb(167, 166, 166);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+span.sp47{
+    color: rgb(129, 123, 123);
+    font-family: "roboto2";
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 30px;
+}
+span.sp48{
+    color: yellowgreen;
+    font-family: "roboto2";
+    font-style: italic;
+    font-size: 15px;
+}
+div.div11{
+    display: flex;
+    margin-top: 60px;
+    
+
+}
+img.img10{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+div.box25{
+    background-color: rgb(53, 52, 52);
+    width: 500px;
+    height: 230px;
+    line-height: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+p.p36{
+    color: rgb(167, 166, 166);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+span.sp49{
+    color: rgb(129, 123, 123);
+    font-family: "roboto2";
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 30px;
+}
+span.sp50{
+    color: yellowgreen;
+    font-family: "roboto2";
+    font-style: italic;
+    font-size: 15px;
+}
+img.img11{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+}
+div.box27{
+    background-color: rgb(53, 52, 52);
+    width: 500px;
+    height: 230px;
+    line-height: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+p.p37{
+    color: rgb(167, 166, 166);
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+span.sp51{
+    color: rgb(129, 123, 123);
+    font-family: "roboto2";
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 30px;
+}
+span.sp52{
+    color: yellowgreen;
+    font-family: "roboto2";
+    font-style: italic;
+    font-size: 15px;
+}
+div.box28{
+    margin-top: 250px;
+}
+h3.h3{
+    font-size: 30px;
+}
+span.sp53{
+    font-family: "roboto3";
+    margin-left: 20px;
+}
+div.div12{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+div.div13{
+    background-color: rgb(53, 52, 52);
+    width: 370px;
+    height: 480px;
+}
+div.box29{
+    display: flex;
+    justify-content: center;
+}
+img.img12{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+h3.h4{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+div.box30{
+    text-align: center;
+}
+p.p38{
+    color: rgb(167, 166, 166);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+span.sp54{
+    color: yellowgreen;
+    font-family: "roboto2";
+    font-size: 17px;
+    padding-top: 20px;
+}
+div.div14{
+    background-color: rgb(53, 52, 52);
+    width: 370px;
+    height: 450px;
+    margin-left: 30px;
+}
+div.box31{
+    display: flex;
+    justify-content: center;
+}
+img.img13{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+h3.h5{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+div.box32{
+    text-align: center;
+}
+p.p39{
+    color: rgb(167, 166, 166);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+span.sp55{
+    color: yellowgreen;
+    font-family: "roboto2";
+    font-size: 17px;
+    padding-top: 20px;
+}
+div.div15{
+    background-color: rgb(53, 52, 52);
+    width: 370px;
+    height: 480px;
+    margin-left: 30px;
+}
+div.box33{
+    display: flex;
+    justify-content: center;
+}
+img.img14{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+h3.h6{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+div.box34{
+    text-align: center;
+}
+p.p40{
+    color: rgb(167, 166, 166);
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+span.sp56{
+    color: yellowgreen;
+    font-family: "roboto2";
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+h3.h7{
+    font-size: 30px;
+    margin-top: 250px;
+}
+span.sp57{
+    font-family: roboto3;
+    margin-left: 5px;
+}
+div.div16{
+    display: flex;
+    margin-top: 70px;
+    
+}
+img.img15, img.img18, img.img21{
+    width: 350px;
+    height: 250px;
+}
+h3.h8{
+    cursor: pointer;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.h8:hover{
+    color: yellowgreen;
+}
+div.box36{
+    background-color: rgb(53, 52, 52); 
+    height: 540px;
+}
+p.p41{
+    color: rgb(167, 166, 166);
+    margin-top: 20px;
+    line-height: 30px;
+}
+div.box37{
+    margin: 30px;
+}
+div.box38, div.box39, div.box40{
+    display: flex;
+}
+div.box38{
+    margin-top: 30px;
+}
+div.box40{
+    margin-left: 10px;
+}
+img.img16, img.img17{
+    width: 25px;
+    height: 25px;
+}
+p.p42, p.p43{
+    color: rgb(167, 166, 166);
+    font-size: 15px;
+    margin-top: 4px;
+}
+div.box42{
+    margin: 30px;
+}
+h3.h9{
+    cursor: pointer;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.h9:hover{
+    color: yellowgreen;
+}
+div.box41{
+    background-color: rgb(53, 52, 52); 
+    height: 540px;
+    margin-left: 30px;
+}
+p.p44{
+    color: rgb(167, 166, 166);
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+div.box43, div.box44, div.box45{
+    display: flex;
+}
+div.box43{
+    margin-top: 30px;
+}
+div.box45{
+    margin-left: 10px;
+}
+img.img19, img.img20{
+    width: 25px;
+    height: 25px;
+}
+p.p45, p.p46{
+    color: rgb(167, 166, 166);
+    font-size: 15px;
+    margin-top: 4px;
+}
+div.box46{
+    background-color: rgb(53, 52, 52); 
+    height: 540px;
+    margin-left: 30px;
+}
+div.box47{
+    margin: 30px;
+}
+h3.h10{
+    cursor: pointer;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.h10:hover{
+    color: yellowgreen;
+}
+p.p47{
+    color: rgb(167, 166, 166);
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+div.box48, div.box49, div.box50{
+    display: flex;
+}
+div.box48{
+    margin-top: 30px;
+}
+div.box50{
+    margin-left: 10px;
+}
+img.img22, img.img23{
+    width: 25px;
+    height: 25px;
+}
+p.p48, p.p49{
+    color: rgb(167, 166, 166);
+    font-size: 15px;
+    margin-top: 4px;
+}
+h3.h11{
+    margin-top: 250px;
+    font-size: 30px;
+}
+span.sp58{
+    margin-left: 5px;
+    font-family: "roboto3";
+}
+div.div17{
+    display: flex;
+    position: relative;
+    top: 50px;
+    right: -30px;
+}
+p.p50{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+input.inp1{
+    width: 600px;
+    height: 40px;
+    background-color: rgb(53, 52, 52);
+    padding-left: 20px;
+    font-size: 15px;
+}
+input.inp2{
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+    background-color: rgb(53, 52, 52);
+    padding-left: 20px;
+    font-size: 15px;
+}
+input.inp3{
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+    background-color: rgb(53, 52, 52);
+    padding-left: 20px;
+    font-size: 15px;
+}
+label.lb1{
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+    background-color: rgb(53, 52, 52);
+    
+    font-size: 15px;
+}
+textarea{
+    margin-top: 20px;
+    background-color: rgb(53, 52, 52);
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+div.div19{
+    margin-left: 90px;
+}
+p.p59{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+div.box55{
+    line-height: 30px;
+}
+span.sp59{
+    color: rgb(68, 68, 168);
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+span.sp60{
+    color: rgb(167, 166, 166);
+    font-size: 15px;
+}
+div.box56{
+    line-height: 30px;
+}
+span.sp61{
+    color: rgb(68, 68, 168);
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+span.sp62{
+    color: rgb(167, 166, 166);
+    font-size: 15px;
+}
+div.box57{
+    line-height: 30px;
+}
+span.sp63{
+    color: rgb(68, 68, 168);
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+span.sp64{
+    color: rgb(167, 166, 166);
+    font-size: 15px;
+}
+div.box58{
+    line-height: 30px;
+}
+span.sp65{
+    color: rgb(68, 68, 168);
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+span.sp66{
+    color: rgb(167, 166, 166);
+    font-size: 15px;
+}
+button.bt3{
+    border-radius: 20px;
+    font-size: 12px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(170, 200, 74);
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+div.box59{
+    margin-top: 170px;
+}
+p.p60{
+    color: rgb(167, 166, 166);
+    line-height: 30px;
+}
+span.sp67{
+    color: yellow;
+    font-family: "roboto2";
+    margin-left: 220px;
+}
+div.box60{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+img.img22{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+img.img23{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+img.img24{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+img.img25{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+img.img26{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
